@@ -36,6 +36,6 @@ spec:
     app: fundy-backend
   ports:
     - protocol: TCP
-      port: 80
+      port: 8080
       targetPort: 8888
   type: ClusterIP
